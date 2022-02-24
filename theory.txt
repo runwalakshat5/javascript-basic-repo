@@ -244,6 +244,7 @@ Inner functions having access to the variables of outer functions
 
 Bind vs call vs apply
 -----------------------
+If you pass any primitive type value it will act like an object
 
 bind - sets `this` keyword and creates a copy of that function
 
@@ -357,7 +358,7 @@ finally {
 Singleton Design Pattern
 ------------------------
 
-Limits the number of instnaces of a perticular object to just one. This single instance
+Limits the number of instances of a perticular object to just one. This single instance
 is called the Singleton.
 
 Singletons are useful in stuations where system wide actions need to be coorodinated 
